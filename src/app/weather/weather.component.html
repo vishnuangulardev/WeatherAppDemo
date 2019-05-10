@@ -1,0 +1,125 @@
+
+<div class="row">
+  <div class="col-sm-4  col-xs-12 sta1" (click)="enterCity1()"><p>click to enter city</p>
+    <div *ngIf="enter1">
+      <label>cityname:
+        <input type="text" [(ngModel)]="cityname1" />
+      </label>
+      <button (click)="getweather1()" >get</button>
+    </div>
+  <div *ngIf="display1" class="bg">
+    <p>{{cityname1}},{{temp1}}&deg;C</p>
+    <img src="{{img1}}">
+    <button (click)="edit1()">edit</button>
+  </div>
+  <p  *ngIf="error1" class="bg">enter valid city name</p>
+  </div>
+  <div class="col-sm-4  col-xs-12 sta2"(click)="enterCity2()" ><p>click to enter city</p>
+    <div *ngIf="enter2">
+      <label>cityname:
+        <input type="text" [(ngModel)]="cityname2" />
+      </label>
+      <button (click)="getweather2()" >get</button>
+    </div>
+  <div *ngIf="display2" class="bg">
+    <p>{{cityname2}},{{temp2}}&deg;C</p>
+    <img src="{{img2}}">
+    <button (click)="edit2()">edit</button>
+  </div>
+  <p  *ngIf="error2"class="bg" >enter valid city name</p></div>
+  <div class="col-sm-4  col-xs-12 sta3"(click)="enterCity3()" ><p>click to enter city</p>
+    <div *ngIf="enter3">
+      <label>cityname:
+        <input type="text" [(ngModel)]="cityname3" />
+      </label>
+      <button (click)="getweather3()" >get</button>
+    </div>
+  <div *ngIf="display3"class="bg" >
+    <p>{{cityname3}},{{temp3}}&deg;C</p>
+    <img src="{{img3}}">
+    <button (click)="edit3()">edit</button>
+  </div>
+  <p  *ngIf="error3" class="bg">enter valid city name</p></div>
+</div>
+<div class="row">
+  <div class="col-sm-4  col-xs-12 sta4" (click)="enterCity4()"><p>click to enter city</p>
+    <div *ngIf="enter4">
+      <label>cityname:
+        <input type="text" [(ngModel)]="cityname4" />
+      </label>
+      <button (click)="getweather4()" >get</button>
+    </div>
+  <div *ngIf="display4" class="bg">
+    <p>{{cityname4}},{{temp4}}&deg;C</p>
+    <img src="{{img4}}">
+    <button (click)="edit4()">edit</button>
+  </div>
+  <p  *ngIf="error4" class="bg">enter valid city name</p></div>
+  <div class="col-sm-4  col-xs-12 sta5"(click)="enterCity5()" ><p>click to enter city</p>
+    <div *ngIf="enter5">
+      <label>cityname:
+        <input type="text" [(ngModel)]="cityname5" />
+      </label>
+      <button (click)="getweather5()" >get</button>
+    </div>
+  <div *ngIf="display5" class="bg" >
+    <p>{{cityname5}},{{temp5}}&deg;C</p>
+    <img src="{{img5}}">
+    <button (click)="edit5()">edit</button>
+  </div>
+  <p  *ngIf="error5" class="bg">enter valid city name</p></div>
+  <div class="col-sm-4  col-xs-12 sta6"(click)="enterCity6()" ><p>click to enter city</p>
+    <div *ngIf="enter6">
+      <label>cityname:
+        <input type="text" [(ngModel)]="cityname6" />
+      </label>
+      <button (click)="getweather6()" >get</button>
+    </div>
+  <div *ngIf="display6" class="bg">
+    <p>{{cityname6}},{{temp6}}&deg;C</p>
+    <img src="{{img6}}">
+    <button (click)="edit6()">edit</button>
+  </div>
+  <p  *ngIf="error6" class="bg">enter valid city name</p></div>
+</div>
+<div class="row">
+  <div class="col-sm-4  col-xs-12 sta7" (click)="enterCity7()"><p>click to enter city</p>
+    <div *ngIf="enter7">
+      <label>cityname:
+        <input type="text" [(ngModel)]="cityname7" />
+      </label>
+      <button (click)="getweather7()" >get</button>
+    </div>
+  <div *ngIf="display7"class="bg" >
+    <p>{{cityname7}},{{temp7}}&deg;C</p>
+    <img src="{{img7}}">
+    <button (click)="edit7()">edit</button>
+  </div>
+  <p  *ngIf="error7" class="bg">enter valid city name</p></div>
+  <div class="col-sm-4  col-xs-12 sta8"(click)="enterCity8()" ><p>click to enter city</p>
+    <div *ngIf="enter8">
+      <label>cityname:
+        <input type="text" [(ngModel)]="cityname8" />
+      </label>
+      <button (click)="getweather8()" >get</button>
+    </div>
+  <div *ngIf="display8" class="bg">
+    <p>{{cityname8}},{{temp8}}&deg;C</p>
+    <img src="{{img8}}">
+    <button (click)="edit8()">edit</button>
+  </div>
+  <p  *ngIf="error8" class="bg" >enter valid city name</p></div>
+  <div class="col-sm-4  col-xs-12 sta9" (click)="enterCity9()"><p>click to enter city</p>
+    <div *ngIf="enter9">
+      <label>cityname:
+        <input type="text" [(ngModel)]="cityname9" />
+      </label>
+      <button (click)="getweather9()" >get</button>
+    </div>
+  <div *ngIf="display9" class="bg">
+    <p>{{cityname9}},{{temp9}}&deg;C</p>
+    <img src="{{img9}}">
+    <button (click)="edit9()">edit</button>
+  </div>
+  <p  *ngIf="error9" class="bg">enter valid city name</p></div>
+</div>
